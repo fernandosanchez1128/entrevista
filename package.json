@@ -12,7 +12,7 @@
   "scripts": {
    "start": "node index.js",
   "test": "mocha",
-  "postinstall": "bower install && grunt build"
+  "build": "bower install && grunt build"
 },
   "engines": {
     "node": "7.10.0"
