@@ -3,7 +3,10 @@
     "gulp": "^3.8.11",
     "laravel-elixir": "*"
   },
-  "scripts": {
+  "dependencies": {
+    "bower": "0.6.x"
+},
+"scripts": {
     "postinstall": "./node_modules/bower/bin/bower install"
 }
 }
