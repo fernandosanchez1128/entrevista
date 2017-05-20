@@ -1,13 +1,16 @@
 {
-  "scripts": {
-    "postinstall": "bower install"
-},
-  "devDependencies": {
-    "gulp": "^3.8.11",
-    "laravel-elixir": "*"
-  },
+  
   "dependencies": {
     "bower": "0.6.x"
-}
+},
+   "devDependencies": {
+    "gulp": "^3.8.11",
+    "laravel-elixir": "*",
+     "bower": "0.6.x"
+  },
 
+  "scripts": {
+    "postinstall": "bower install"
+}
+ 
 }
