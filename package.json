@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "php":"7",
     "gulp": "^3.8.11",
     "laravel-elixir": "*"
   }
